@@ -1,0 +1,146 @@
+<div class="container">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<header>
+  <h1 id= "title" >Internship Survey Form</h1>
+</header>
+
+  <p id= "description"> This Survey Form is for feedback and advice for projects and experiences <p>
+ <form id = "survey-form">
+   <label id="name-label">
+   Name: <input id="name" type="text" placeholder="please enter you name"> </input>
+   </label>
+<br>
+<br>
+<br>
+<br>
+  <label id="email-label">
+  Email: <input id="email" type="email" name="email" placeholder="please enter you email"></input>
+  </label>
+<br>
+<br>
+<br>
+<br>
+<label id=" number-label">
+Age: <input id="number" type="number" name="number" min= "18" max="99" placeholder= "please enter your age"></input>
+</label>
+
+<br>
+<br>
+
+<!--
+<div id= "dropdown-form">
+  <p> Which option best describes your current role? </p>
+<select id="dropdown" name="role" class="form-role" required>
+  
+  <option disabled selected value> Select current role</option>
+  <option value= "Student" >Student </option>
+  <option value= "Recruiter">Recruiter </option>
+  <option value = "Software Engineer-New Grad" >Software Engineer-New Grad </option>
+  <option value= " Professor" >Professor </option>
+  <option value= "Senior Software Engineer" > Senior Software Engineer </option>
+  <option value= " Executive/CEO"> Executive/CEO </option>
+</div>
+
+-->
+
+  
+  <!--
+       <div class="form-group">
+      <p>Which option best describes your current role?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+  <option value= "Recruiter">Recruiter </option>
+  <option value = "Software Engineer-New Grad" >Software Engineer-New Grad </option>
+  <option value= " Professor" >Professor </option>
+  <option value= "Senior Software Engineer" > Senior Software Engineer </option>
+  <option value= " Executive/CEO"> Executive/CEO </option>
+      </select>
+    </div>
+
+-->
+       
+       <div class="form-group">
+      <p> How many years of experience do you have? <span class="clue">(Choose one option)</span> </p>
+      
+        <label><input name="user-recommend" value="+1 years" type="radio" class="input-radio" checked/>+1 years</label>          <br>
+         <label><input name="user-recommend" value="+2 years" type="radio" class="input-radio" checked/>+2 years</label>          
+         <br>
+       <label><input name="user-recommend" value="+3 years" type="radio" class="input-radio" checked/>+3 years</label>          <br>
+      <label> <input name="user-recommend" value="+4 years" type="radio" class="input-radio" checked/>+4 years</label>          <br>
+      <label> <input name="user-recommend" value="+5 years" type="radio" class="input-radio" checked/>+5 years</label>          <br>
+       
+     
+    </div>
+  
+  
+  <div id="form-check">
+    
+    <p>
+        What should I improve on?
+        <span class="clue">(Check all that apply)</span>
+     </p>
+    
+    <br>
+    <label for= "1"><input type="checkbox" name="Front" value="Front"> Front End Projects
+    <br>
+    <br>
+    <label for= "2"><input type="checkbox" name="Back" value="Back"> Back  End Projects
+    <br>
+    <br>
+    <label for= "3"><input type="checkbox" name="Pro" value="Pro"> Linkedin Profile
+    <br>
+    <br>
+    <label for= "4"><input type="checkbox" name="Learn" value="Learn"> Learn more programming languages
+    <br>
+    <br>
+    <label for= "5"><input type="checkbox" name="Language" value="Language"> Become proficient in one language first
+    <br>
+    <br>
+    <label for= "6"><input type="checkbox" name="Class" value="Class"> Take more coding classes
+    <br>
+    <br>
+    <label for= "7"><input type="checkbox" name="Course" value="Course"> Take Certification Courses on Coursera, Udemy, FCC, or on IBM
+ 
+  </div>
+      <br>
+      <br>
+      
+      <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comments here"></textarea>
+    </div>
+        
+      
+     <div class="dropdown-form">
+      <p>Which option best describes your current role?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current role</option>
+        <option value="student">Student</option>
+        <option value="Rec">Recruiter</option>
+        <option value="Soft">Software Engineer- New Grad</option>
+        <option value="Pro">Professor</option>
+        <option value="Sen">Senior Software Engineer</option>
+        <option value="Exe">Executive or CEO</option>
+      </select>  
+    </div>
+      
+      <br>
+      <br>
+
+        <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+
+        
+       
+</form>
+</div>
+
+  
+ 
